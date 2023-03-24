@@ -187,6 +187,7 @@ header h1 {
 .formulario input[type="number"].nuevo-presupuesto {
     font-size: 2.3rem;
     text-align: center;
+    width: 80%;
 }
 
 
