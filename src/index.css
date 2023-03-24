@@ -111,7 +111,7 @@ header h1 {
     width: 100%;
     transition: background-color 300ms ease;
 }
-@media (min-width: 768px) {
+@media (min-width: 568px) {
     .formulario input[type="submit"] {
         display: block;
         padding: 1rem 5rem;
@@ -168,7 +168,7 @@ header h1 {
 .dos-columnas :first-child {
     margin-bottom: 4rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 568px) {
     .dos-columnas {
         flex-direction: row;
         align-items: center;
@@ -200,7 +200,7 @@ header h1 {
     font-size: 2.4rem;
     text-align: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 568px) {
     .contenido-presupuesto p {
         text-align: left;
     }
