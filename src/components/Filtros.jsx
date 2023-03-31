@@ -5,7 +5,7 @@ export const Filtros = ({filtro, setFiltro}) => {
     <div className='filtros sombra contenedor'>
         <form>
             <div className='campo'>
-                <label>Filtrar Gastos</label>
+                <label>Filtrar</label>
                 <select
                     value={filtro}
                     onChange={e => setFiltro(e.target.value)}
