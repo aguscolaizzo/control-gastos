@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Header from './components/Header'
 import ListadoGastos from './components/ListadoGastos';
-import { Filtros } from './components/Filtros';
+import Filtros from './components/Filtros';
 import Modal from './components/Modal';
 import { generarID } from './helpers';
 import { formatearFecha } from './helpers';
@@ -113,6 +113,7 @@ function App() {
         isValidPresupuesto={isValidPresupuesto}
         setIsValidPresupuesto={setIsValidPresupuesto}
         gastos={gastos}
+        setGastos={setGastos}
       />
 
       {isValidPresupuesto && (
